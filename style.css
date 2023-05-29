@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Railway", sans-serif;
+}
+
+html {
+  font-size: 15px;
+}
+
+header {
+  width: 100%;
+  height: 50vh;
+  background-image: url(../banner.jpg);
+  background-size: cover;
+  text-align: center;
+  border-top: 10px solid #87CEEB;
+}
+header nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+header nav .logo {
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+header nav ul {
+  display: flex;
+}
+header nav ul li {
+  list-style: none;
+  margin-left: 2 rem;
+}
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 100;
+}
+header .headings {
+  margin-top: 8rem;
+}
+header .headings h1 {
+  color: #fff;
+  font-weight: 100;
+  font-size: 3rem;
+}
+header .headings h6 {
+  color: #fff;
+  font-weight: 50;
+  font-size: 2rem;
+}
+
+.inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 5% 5%;
+}
+
+.flex-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.more {
+  width: 120px;
+  height: 30px;
+  background-color: #87CEEB;
+  color: #fff;
+  font-family: "Railway", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 8px;
+  border-color: #fff;
+}
+
+.info section {
+  width: 30%;
+  padding: 20px;
+}
+.info section h2 {
+  font-weight: 300;
+  margin-bottom: 1.5rem;
+  color: #87CEEB;
+}
+.info section p {
+  font-weight: 300;
+  margin-bottom: 1.5rem;
+  line-height: 2rem;
+  color: grey;
+}
+.info section hr {
+  width: 0.5px;
+  height: auto;
+  border: none;
+  background-color: #dfdfdf;
+}
+
+.testimonial-wrapper {
+  width: 100%;
+  background-color: #87CEEB;
+  text-align: center;
+  color: #fff;
+}
+.testimonial-wrapper h2 {
+  font-size: 2 rem;
+  font-weight: 200;
+  margin-bottom: 1rem;
+}
+.testimonial-wrapper p {
+  font-size: 1rem;
+  font-weight: 200;
+  margin-bottom: 2rem;
+}
+.testimonial-wrapper .testimonial {
+  width: 22%;
+  border: 1px solid #a0c2e8;
+  padding: 4rem 0;
+}
+.testimonial-wrapper .testimonial img {
+  border-radius: 100%;
+  width: 60%;
+  border-radius: 0%;
+}
+.testimonial-wrapper .testimonial h3 {
+  font-size: 1.5rem;
+  font-weight: 200;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.testimonial-wrapper .testimonial h5 {
+  font-size: 1.1rem;
+  font-weight: 200;
+}
+
+.image-gallery h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 100;
+  color: #87CEEB;
+}
+.image-gallery h5 {
+  text-align: center;
+  font-weight: 100;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+.image-gallery .left, .image-gallery .right {
+  width: 47%;
+}
+.image-gallery img {
+  width: 100%;
+}
+.image-gallery h3 {
+  text-align: center;
+  margin: 2rem;
+  font-weight: 200;
+  color: #87CEEB;
+}
+.image-gallery p {
+  margin-bottom: 2rem;
+  line-height: 1.5rem;
+  color: grey;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+footer .footer-hr {
+  width: 100%;
+  height: 1px;
+  margin-bottom: 3rem;
+}
+footer p {
+  color: magenta grey;
+}
+footer span {
+  font-size: 1.5rem;
+  padding: 0 0.5rem;
+  color: #87CEEB;
+}/*# sourceMappingURL=style.css.map */

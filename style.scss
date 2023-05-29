@@ -1,0 +1,190 @@
+$primary-font : 'Railway', sans-serif;
+$primary-color: #87CEEB;
+$white-color : #fff;
+$black-color : #000;
+
+@mixin flex-property{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $primary-font;
+}
+html{
+  font-size: 15px;
+}
+header{
+  width: 100%;
+  height: 50vh;
+  background-image: url(../banner.jpg);
+  background-size: cover;
+  text-align: center;
+  border-top: 10px solid $primary-color;
+  nav{
+    @include flex-property();
+    .logo{
+      font-weight: 400;
+      font-size: 1.2rem;
+
+    }
+    ul{
+      display: flex;
+      li{
+        list-style: none;
+        margin-left: 2 rem;
+
+      } 
+    }
+    a{
+      color: #fff;
+      text-decoration: none;
+      font-weight: 100;
+    }
+  }
+  .headings{
+    margin-top: 8rem;
+    h1{
+      color: $white-color;
+      font-weight: 100;
+      font-size: 3rem;
+    }
+    h6{
+      color: $white-color;
+      font-weight: 50;
+      font-size: 2rem;
+    }
+  }
+}
+.inner{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 5% 5%;
+}
+.flex-box{
+  @include flex-property();
+}
+.more{
+  width: 120px;
+  height: 30px;
+  background-color: $primary-color;
+  color: $white-color;
+  font-family: $primary-font;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 8px;
+  border-color: #fff;
+ }
+.info{
+  section{
+    width: 30%;
+    padding: 20px;
+    h2{
+      font-weight: 300;
+      margin-bottom: 1.5rem;
+      color: $primary-color;
+    }
+    p{
+      font-weight: 300;
+      margin-bottom: 1.5rem;
+      line-height: 2rem;
+      color: grey;
+    }
+    hr{
+      width: 0.5px;
+      height: auto;
+      border: none;
+      background-color:#dfdfdf ;
+    }
+  }
+  }
+.testimonial-wrapper{
+  width: 100%;
+  background-color: $primary-color;
+  text-align: center;
+  color: $white-color;
+  h2{
+    font-size: 2 rem;
+    font-weight: 200;
+    margin-bottom: 1rem;
+  }
+  p{
+    font-size: 1rem;
+    font-weight: 200;
+    margin-bottom: 2rem;
+  }
+  .testimonial{
+    width: 22%;
+    border: 1px solid #a0c2e8 ;
+    padding: 4rem 0;
+    img{
+      border-radius: 100%;
+      width: 60%;
+      border-radius: 0%;
+      
+    }
+    h3{
+      font-size: 1.5rem;
+      font-weight: 200;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+    }
+    h5{
+      font-size: 1.1rem;
+      font-weight: 200;
+    }
+  }
+}
+.image-gallery{
+  h2{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 100;
+    color: $primary-color;
+  }
+  h5{
+    text-align: center;
+   font-weight: 100;
+   margin-top: 1rem;
+   margin-bottom: 3rem;
+  }
+  .left, .right{
+    width: 47%;
+  }
+  img{
+    width: 100%;
+  }
+  h3{
+    text-align: center;
+    margin: 2rem;
+    font-weight: 200;
+    color: $primary-color;
+  }
+  p{
+    margin-bottom: 2rem;
+    line-height: 1.5rem;
+    color: grey;
+  }
+}
+footer{
+  @include flex-property();
+  
+  .footer-hr{
+    width: 100%;
+    height: 1px;
+    margin-bottom: 3rem;
+  }
+  p{
+    color: magenta grey;
+
+  }
+  span{
+    font-size: 1.5rem;
+    padding: 0 0.5rem;
+    color: $primary-color;
+  }
+}
